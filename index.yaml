@@ -1,5 +1,51 @@
 apiVersion: v1
 entries:
+  Alex-Docker-registry:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: AlexTest2
+      catalog.cattle.io/release-name: alex-test2
+    apiVersion: v1
+    appVersion: 2.7.1
+    created: "2021-08-23T13:17:05.749126178-06:00"
+    description: A Helm chart for Docker Registry
+    digest: b8499203ffdc5e649be0e7d2d4f666567c9721dad2d0ded5e5bc9fbebaefcd72
+    home: https://hub.docker.com/_/registry/
+    icon: https://raw.githubusercontent.com/alex-isv/partner-charts/alex-test2/assets/logos/alex-test1.png
+    kubeVersion: 1.18 - 1.21
+    maintainers:
+    - email: devin@canterberry.cc
+      name: Devin Canterberry
+      url: https://canterberry.cc/
+    name: Alex-Docker-registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - assets/alex-package2/Alex-Docker-registry-1.12.2.tgz
+    version: 1.12.2
+  alex-docker-registry:
+  - annotations:
+      catalog.cattle.io/certified: partner
+      catalog.cattle.io/display-name: AlexTest2
+      catalog.cattle.io/release-name: alex-test2
+    apiVersion: v1
+    appVersion: 2.7.1
+    created: "2021-08-23T13:17:05.750292139-06:00"
+    description: Alex test Helm chart for Docker Registry
+    digest: 07e8a7b1b1a7a49c3093031c992b3c4e46ea73dd1cb312adbc582c5fce078066
+    home: https://hub.docker.com/_/registry/
+    icon: https://raw.githubusercontent.com/alex-isv/partner-charts/alex-test2/assets/logos/alex-test1.png
+    kubeVersion: 1.18 - 1.21
+    maintainers:
+    - email: devin@canterberry.cc
+      name: Devin Canterberry
+      url: https://canterberry.cc/
+    name: alex-docker-registry
+    sources:
+    - https://github.com/docker/distribution-library-image
+    urls:
+    - assets/alex-package2/alex-docker-registry-1.12.2.tgz
+    version: 1.12.2
   ambassador:
   - annotations:
       catalog.cattle.io/certified: partner
