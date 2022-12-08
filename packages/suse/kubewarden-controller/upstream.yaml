@@ -1,0 +1,7 @@
+HelmRepo: https://charts.kubewarden.io
+HelmChart: kubewarden-controller
+Vendor: SUSE
+DisplayName: Kubewarden Controller
+ChartMetadata:
+  kubeVersion: '>=1.21-0'
+  icon: https://www.kubewarden.io/images/icon-kubewarden.svg
